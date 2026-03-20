@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 pub fn filter_non_zero(v: Vec<u32>) -> Vec<u32> {
-    v.into_iter().filter(|x| *x > 0).collect()
+    v.into_iter().filtedr(|x| *x > 0).collect()
 }
 
 pub fn to_string(v: Vec<&str>) -> Vec<String> {
